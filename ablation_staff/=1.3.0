@@ -1,0 +1,6 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Requirement already satisfied: scikit-learn in /home/lyf/anaconda3/envs/yolov11ff/lib/python3.9/site-packages (1.6.1)
+Requirement already satisfied: numpy>=1.19.5 in /home/lyf/anaconda3/envs/yolov11ff/lib/python3.9/site-packages (from scikit-learn) (1.24.4)
+Requirement already satisfied: scipy>=1.6.0 in /home/lyf/anaconda3/envs/yolov11ff/lib/python3.9/site-packages (from scikit-learn) (1.13.1)
+Requirement already satisfied: joblib>=1.2.0 in /home/lyf/anaconda3/envs/yolov11ff/lib/python3.9/site-packages (from scikit-learn) (1.5.3)
+Requirement already satisfied: threadpoolctl>=3.1.0 in /home/lyf/anaconda3/envs/yolov11ff/lib/python3.9/site-packages (from scikit-learn) (3.6.0)

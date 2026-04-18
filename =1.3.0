@@ -1,0 +1,25 @@
+Looking in indexes: https://pypi.tuna.tsinghua.edu.cn/simple
+Collecting cvxpy
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/cf/b3/1adeea295e773b2cc759f39e6d05426f397b8f9852e999a2eed6138bb6fe/cvxpy-1.7.5-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 6.5 MB/s  0:00:00
+Collecting osqp>=1.0.0 (from cvxpy)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/96/38/046544ee3890c7a0426fe552bbea8fd189c5f67617d15f59c1aa00dd61fe/osqp-1.1.1-cp39-cp39-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (341 kB)
+Collecting clarabel>=0.5.0 (from cvxpy)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/6b/a9/c76edf781ca3283186ff4b54a9a4fb51367fd04313a68e2b09f062407439/clarabel-0.11.1-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 8.0 MB/s  0:00:00
+Collecting scs>=3.2.4.post1 (from cvxpy)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/97/85/8ae7698bf9b3f3a66a710ccdddb1588beaae4a58bf209304018cb3f2f9bb/scs-3.2.11-cp39-cp39-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (12.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.1/12.1 MB 10.0 MB/s  0:00:01
+Requirement already satisfied: numpy>=1.22.4 in /home/lyf/anaconda3/envs/dtgat_exp/lib/python3.9/site-packages (from cvxpy) (1.23.5)
+Requirement already satisfied: scipy>=1.13.0 in /home/lyf/anaconda3/envs/dtgat_exp/lib/python3.9/site-packages (from cvxpy) (1.13.1)
+Collecting cffi (from clarabel>=0.5.0->cvxpy)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/1f/74/cc4096ce66f5939042ae094e2e96f53426a979864aa1f96a621ad128be27/cffi-2.0.0-cp39-cp39-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (216 kB)
+Requirement already satisfied: jinja2 in /home/lyf/anaconda3/envs/dtgat_exp/lib/python3.9/site-packages (from osqp>=1.0.0->cvxpy) (3.1.6)
+Requirement already satisfied: setuptools in /home/lyf/anaconda3/envs/dtgat_exp/lib/python3.9/site-packages (from osqp>=1.0.0->cvxpy) (80.9.0)
+Requirement already satisfied: joblib in /home/lyf/anaconda3/envs/dtgat_exp/lib/python3.9/site-packages (from osqp>=1.0.0->cvxpy) (1.5.3)
+Collecting pycparser (from cffi->clarabel>=0.5.0->cvxpy)
+  Downloading https://pypi.tuna.tsinghua.edu.cn/packages/a0/e3/59cd50310fc9b59512193629e1984c1f95e5c8ae6e5d8c69532ccc65a7fe/pycparser-2.23-py3-none-any.whl (118 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/lyf/anaconda3/envs/dtgat_exp/lib/python3.9/site-packages (from jinja2->osqp>=1.0.0->cvxpy) (3.0.3)
+Installing collected packages: pycparser, scs, osqp, cffi, clarabel, cvxpy
+
+Successfully installed cffi-2.0.0 clarabel-0.11.1 cvxpy-1.7.5 osqp-1.1.1 pycparser-2.23 scs-3.2.11

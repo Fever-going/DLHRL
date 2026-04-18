@@ -1,0 +1,59 @@
+Collecting tqdm
+  Downloading tqdm-4.67.3-py3-none-any.whl.metadata (57 kB)
+Collecting cvxpy
+  Downloading cvxpy-1.7.5-cp310-cp310-win_amd64.whl.metadata (9.7 kB)
+Collecting gym
+  Downloading gym-0.26.2.tar.gz (721 kB)
+     ---------------------------------------- 721.7/721.7 kB 5.9 MB/s  0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: colorama in d:\code\anaconda_envs\envs\yolov8\lib\site-packages (from tqdm) (0.4.6)
+Collecting osqp>=1.0.0 (from cvxpy)
+  Downloading osqp-1.1.1-cp310-cp310-win_amd64.whl.metadata (2.2 kB)
+Collecting clarabel>=0.5.0 (from cvxpy)
+  Downloading clarabel-0.11.1-cp39-abi3-win_amd64.whl.metadata (4.9 kB)
+Collecting scs>=3.2.4.post1 (from cvxpy)
+  Downloading scs-3.2.11-cp310-cp310-win_amd64.whl.metadata (2.8 kB)
+Requirement already satisfied: numpy>=1.22.4 in d:\code\anaconda_envs\envs\yolov8\lib\site-packages (from cvxpy) (2.2.6)
+Collecting scipy>=1.13.0 (from cvxpy)
+  Downloading scipy-1.15.3-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting cloudpickle>=1.2.0 (from gym)
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting gym_notices>=0.0.4 (from gym)
+  Downloading gym_notices-0.1.0-py3-none-any.whl.metadata (1.2 kB)
+Collecting cffi (from clarabel>=0.5.0->cvxpy)
+  Downloading cffi-2.0.0-cp310-cp310-win_amd64.whl.metadata (2.6 kB)
+Requirement already satisfied: jinja2 in d:\code\anaconda_envs\envs\yolov8\lib\site-packages (from osqp>=1.0.0->cvxpy) (3.1.6)
+Requirement already satisfied: setuptools in d:\code\anaconda_envs\envs\yolov8\lib\site-packages (from osqp>=1.0.0->cvxpy) (82.0.1)
+Collecting joblib (from osqp>=1.0.0->cvxpy)
+  Downloading joblib-1.5.3-py3-none-any.whl.metadata (5.5 kB)
+Collecting pycparser (from cffi->clarabel>=0.5.0->cvxpy)
+  Downloading pycparser-3.0-py3-none-any.whl.metadata (8.2 kB)
+Requirement already satisfied: MarkupSafe>=2.0 in d:\code\anaconda_envs\envs\yolov8\lib\site-packages (from jinja2->osqp>=1.0.0->cvxpy) (3.0.3)
+Downloading tqdm-4.67.3-py3-none-any.whl (78 kB)
+Downloading cvxpy-1.7.5-cp310-cp310-win_amd64.whl (1.1 MB)
+   ---------------------------------------- 1.1/1.1 MB 9.5 MB/s  0:00:00
+Downloading clarabel-0.11.1-cp39-abi3-win_amd64.whl (887 kB)
+   ---------------------------------------- 887.3/887.3 kB 13.6 MB/s  0:00:00
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading gym_notices-0.1.0-py3-none-any.whl (3.3 kB)
+Downloading osqp-1.1.1-cp310-cp310-win_amd64.whl (309 kB)
+Downloading scipy-1.15.3-cp310-cp310-win_amd64.whl (41.3 MB)
+   ---------------------------------------- 41.3/41.3 MB 20.2 MB/s  0:00:02
+Downloading scs-3.2.11-cp310-cp310-win_amd64.whl (7.5 MB)
+   ---------------------------------------- 7.5/7.5 MB 15.9 MB/s  0:00:00
+Downloading cffi-2.0.0-cp310-cp310-win_amd64.whl (182 kB)
+Downloading joblib-1.5.3-py3-none-any.whl (309 kB)
+Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+Building wheels for collected packages: gym
+  Building wheel for gym (pyproject.toml): started
+  Building wheel for gym (pyproject.toml): finished with status 'done'
+  Created wheel for gym: filename=gym-0.26.2-py3-none-any.whl size=827739 sha256=edaad1a9b855b0dbc032b32cf2b82f3fc4f78bbe4b2f0a34c6f22891f0d05339
+  Stored in directory: c:\users\fansy\appdata\local\pip\cache\wheels\b9\22\6d\3e7b32d98451b4cd9d12417052affbeeeea012955d437da1da
+Successfully built gym
+Installing collected packages: gym_notices, tqdm, scipy, pycparser, joblib, cloudpickle, scs, osqp, gym, cffi, clarabel, cvxpy
+
